@@ -1,0 +1,337 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 1px 1px rgb(122, 122, 122);
+}
+
+.nav_list {
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.nav_list li {
+
+    margin: 0px 25px;
+}
+
+.nav_list li a {
+    text-decoration: none;
+    transition-duration: 0.3s;
+}
+
+.nav_list li a:hover {
+    color: #E3842A;
+}
+
+.navbar img {
+    width: 209px;
+    height: 63px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.contact_form{
+
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 50px 50px;
+}
+
+.container{
+   display: flex;
+  
+   
+}
+
+.container .contact_form h2{
+    font-size: 50px;
+}
+
+.container .contact_form h5{
+
+    font-size: 20px;
+    margin: 40px 0px 10px 0px;
+}
+
+.container .contact_form input{
+
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid #E3842A;
+}
+
+.container .contact_form button{
+    
+    margin: 40px 0px;
+    padding: 15px;
+    background-color: #E3842A;
+    border: 1px solid #E3842A;
+    border-radius: 10px;
+    
+}
+
+.car_img{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 50%;
+    margin: 50px 50px;
+
+}
+
+.car_img .car{
+
+    height: 360px;
+    width: 500px;
+    
+    
+}
+
+.car_img .style{
+
+    height: 100px;
+    width: 100px;
+}
+
+@media screen and (max-width:903px) {
+
+    .navbar img {
+        width: 180px;
+        height: 52px;
+        margin-left: 50px;
+        margin-top: 10px;
+    }
+
+    .nav_list {
+        width: 50%;
+    }
+
+    .car_img .car {
+        height: 290px;
+        width: 385px;
+    }
+
+    .container .contact_form h2 {
+        font-size: 33px;
+    }
+
+    .car_img{
+        
+        margin: 35px 35px;
+    
+    }
+
+    .contact_form{
+
+        margin: 35px 35px;
+    }
+    
+}
+
+@media screen and (max-width:650px) {
+
+    .navbar img {
+        width: 127px;
+        height: 42px;
+        margin-left: 25px;
+        margin-top: 10px;
+    }
+
+    .nav_list {
+        width: 60%;
+    }
+
+    .car_img .car {
+        height: 214px;
+        width: 299px;
+    }
+
+    .car_img {
+        margin: 35px 5px;
+    }
+
+    .container .contact_form h5 {
+        font-size: 16px;
+        margin: 40px 0px 10px 0px;
+    }
+
+    .container .contact_form h2 {
+        font-size: 28px;
+    }
+    
+}
+
+@media screen and (max-width:550px) {
+    
+
+    .car_img .car {
+        
+        display: none;
+    }
+
+    .car_img .style {
+        
+        display: none;
+    }
+
+    .container{
+
+        flex-direction: column;
+        align-items: center;
+        padding: 25px;
+    }
+
+    .contact_form{
+
+        width: 100%;
+
+    }
+
+    .nav_list li {
+
+        margin: 0px 8px;
+        font-size: 14px;
+    }
+
+    .navbar img {
+        width: 105px;
+        height: 32px;
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+
+    .contact_form {
+        margin: 15px 0px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+.foter {
+    background: white;
+    padding: 10px 50px;
+    box-shadow: 0px -1px 0px grey ;
+}
+
+.foter .container {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+}
+
+
+.google {
+    width: 130px;
+    height: 48px;
+    background: black;
+    display: flex;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 20px 0px;
+}
+
+.google img {
+    width: 30px;
+    height: 30px;
+}
+
+.playBtn {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 12px;
+    justify-content: center;
+}
+
+.playBtn h4,
+.playBtn h5 {
+    margin: 3px 0px;
+}
+
+.scannerbar {
+    display: flex;
+    width: 280px;
+    align-items: center;
+
+}
+
+.scannerbar img,
+.scannerbar text {
+    margin: 0px 20px 0px 20px;
+}
+
+.scannerbar img {
+    height: 100px;
+    width: 100px;
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-around;
+
+}
+
+.social h3 {
+    width: 100%;
+    text-align: center;
+}
+
+.social .social_icon {
+    display: flex;
+    width: 100%;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+@media screen and (max-width:699px) {
+
+    .container {
+
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .foot_button,
+    .scannerbar,
+    .social {
+        margin: 10px 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .social {
+        height: 110px;
+    }
+
+    .social .social_icon {
+        width: 100%;
+        text-align: center;
+    }
+
+    .scannerbar{
+        width: 100%;
+    }
+
+}
